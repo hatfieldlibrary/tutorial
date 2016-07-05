@@ -20,7 +20,7 @@ Along the way, you need to modify/create the following files:
 
 I've added comments in several of the files you will revise (and in a few other places).  Look for `-ms` at the end of the comment to know that it's written by me.
 
-To get started on this project, clone the github repo to your machine, move into the project directory and install dependencies using `npm install` and `bower install`.
+To get started on this project, clone the github repo to your machine, move into the project directory and install dependencies using `npm install` and `bower install`.  If he chooses to join the fun, Christopher will also likely need to install node, npm and bower .
 
 To run the project on your computer, type `grunt serve`.   Happy coding.
 
