@@ -1,4 +1,6 @@
 /**
+ * NOTE: I've moved the 'thing' controller into a controllers directory. --ms
+ * 
  * Using Rails-like standard naming convention for endpoints.
  * GET     /things              ->  index
  * POST    /things              ->  create
