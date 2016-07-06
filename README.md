@@ -14,9 +14,10 @@ Along the way, you need to modify/create the following files:
 
 1. Modify server/routes.js 
 2.  Create a new server api controller 
-3. Modify client/app.js (You'll need to define a new Angular route, or state).
+3. Modify client/app.js (You'll need to define a new Angular route, or state)
 4. Create new client html file for your page
 5. Create new AngularJs controller for your page
+6. If you create a new controller in #5, remember to add the script tag to index.html
 
 I've added comments in several of the files you will revise (and in a few other places).  Look for `-ms` at the end of the comment to know that it's written by me.
 
