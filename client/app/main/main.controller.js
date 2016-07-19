@@ -18,7 +18,7 @@ angular.module('tutorialApp')
       $scope.awesomeThings = awesomeThings;
     });
 
-    $http.get('eads/ead.xml').success(function (testead) {
+    $http.get('/assets/eads/ead.xml').success(function (testead) {
       console.log(testead) ;
       // $scope.awesomeThings = awesomeThings;
     });

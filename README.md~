@@ -25,10 +25,4 @@ To get started on this project, clone the github repo to your machine, move into
 
 To run the project on your computer, type `grunt serve`.   Happy coding.
 
-NOTES:
-
-http://localhost:9000/api/things throws console error (seems to prevent writing to the console)
-
-?  cross browser issues getting data - is this why client on dspace server?
-
 
