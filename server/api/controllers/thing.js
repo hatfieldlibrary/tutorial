@@ -8,18 +8,15 @@ module.exports = function (req, res) {
 
   res.json([
       {
-        name : 'Development Tools'
+        name : 'This from server/api/controllers/thing.js'
       }, {
-        name : 'Server and Client integration'
+        name : 'Make exist dynamically accept jsonp callback name'
       }, {
-        name : 'Smart Build System'
+        name : 'Parse item results, pretty up display'
       },  {
-        name : 'Modular Structure'
-      },  {
-        name : 'Optimized Build'
-      },{
-        name : 'Deployment Ready'
+        name : 'try xml from archiveswest'
       }
+ 
   ]);
 
 };
