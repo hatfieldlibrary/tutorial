@@ -18,7 +18,13 @@ angular.module('tutorialApp')
       $scope.awesomeThings = awesomeThings;
     });
 
- //   $http.get('/api/findingaids').success(function (EADS) {
+    $http.get('eads/ead.xml').success(function (testead) {
+      console.log(testead) ;
+      // $scope.awesomeThings = awesomeThings;
+    });
+
+
+    //   $http.get('/api/findingaids').success(function (EADS) {
  //     $scope.EADS = EADS;
  //   });
 
