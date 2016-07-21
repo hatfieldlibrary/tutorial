@@ -14,7 +14,8 @@
     "angular-ui-router": "~0.2.10",
     "ng-tour": "ng-route#*",
     "angular-loading-bar": "",
-    "angular-animate": ""
+    "angular-animate": "",
+    "angular-xml2json": ""
   },
   "devDependencies": {
     "angular-mocks": ">=1.2.*",

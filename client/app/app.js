@@ -7,6 +7,7 @@
     'ngSanitize',
     'ngAnimate',
     'angular-loading-bar',
+    'angularXml2json',
     // This is new to Mike!
     'ui.router'
   ]);
@@ -42,9 +43,14 @@
           templateUrl: 'app/main/main.html',
           controller: 'MainCtrl'
         })
+        .state('example', {
+          url: '/example',
+          templateUrl: 'app/example/example.html',
+          controller: 'ExampleCtrl'
+        })
         .state('test', {
           url: '/test',
-          templateUrl: 'app/test/example.html',
+          templateUrl: 'app/test/test.html',
           controller: 'TestCtrl'
         });
     });
