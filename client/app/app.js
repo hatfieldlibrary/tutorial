@@ -5,6 +5,8 @@
     'ngCookies',
     'ngResource',
     'ngSanitize',
+    'ngAnimate',
+    'angular-loading-bar',
     // This is new to Mike!
     'ui.router'
   ]);
@@ -19,6 +21,10 @@
 
     $locationProvider.html5Mode(true);
   })
+
+  .config(['cfpLoadingBarProvider', function (cfpLoadingBarProvider) {
+    cfpLoadingBarProvider.parentSelector = '#loading';
+  }])
 
   // This uses Angular UI's stateprovider (ui.router).  For comparison of stateprovider and routeprovider (ngRoute),
   // see: http://stackoverflow.com/questions/27645202/what-is-the-difference-between-routeprovider-and-stateprovider-in-angularjs
@@ -38,7 +44,7 @@
         })
         .state('test', {
           url: '/test',
-          templateUrl: 'app/test/test.html',
+          templateUrl: 'app/test/example.html',
           controller: 'TestCtrl'
         });
     });

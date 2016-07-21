@@ -6,6 +6,7 @@ angular.module('tutorialApp')
   //  delete $httpProvider.defaults.headers.common['X-Requested-With'];
   //}])
 
+
   .controller('MainCtrl', function ($scope, $http) {
 
 
@@ -18,10 +19,7 @@ angular.module('tutorialApp')
       $scope.awesomeThings = awesomeThings;
     });
 
-    $http.get('/assets/eads/ead.xml').success(function (testead) {
-      console.log(testead) ;
-      // $scope.awesomeThings = awesomeThings;
-    });
+
 
 
     //   $http.get('/api/findingaids').success(function (EADS) {

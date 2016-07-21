@@ -10,13 +10,13 @@ module.exports = function (req, res) {
       {
         name : 'This from server/api/controllers/thing.js'
       }, {
-      name : 'loading image'
+        name : 'loading image'
     },   {
         name : 'Parse item results, pretty up display'
       },  {
         name : 'Put this on a separate page with show dates button'
       },  {
-      name : 'Make exist dynamically accept jsonp callback name'
+        name : 'Make exist dynamically accept jsonp callback name'
     }, {
         name : 'try xml'
       }

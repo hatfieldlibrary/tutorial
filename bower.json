@@ -12,7 +12,9 @@
     "font-awesome": ">=4.1.0",
     "lodash": "~2.4.1",
     "angular-ui-router": "~0.2.10",
-    "ng-tour": "ng-route#*"
+    "ng-tour": "ng-route#*",
+    "angular-loading-bar": "",
+    "angular-animate": ""
   },
   "devDependencies": {
     "angular-mocks": ">=1.2.*",
