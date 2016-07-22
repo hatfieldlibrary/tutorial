@@ -23,6 +23,7 @@ angular.module('tutorialApp')
           });
 
           console.log(Glacier)
+          console.log(gitems)
         });
 
       // $scope.awesomeThings = awesomeThings;
