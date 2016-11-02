@@ -30,7 +30,7 @@ angular.module('tutorialApp')
       .success(function (Wallulahs) {
         $scope.Wallulahs = Wallulahs;
 
-        $scope.items = [];
+        $scope.items = []; // $scope.items = Wallulahs.item
         angular.forEach(Wallulahs.item, function(value, key) {
           $scope.items.push(value);
         });

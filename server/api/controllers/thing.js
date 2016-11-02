@@ -8,7 +8,7 @@ module.exports = function (req, res) {
 
   res.json([
       {
-        name : 'This from server/api/controllers/thing.js'
+        name : 'This from server/api/controllers/thing.js!'
       }, {
         name : 'loading image'
     },   {

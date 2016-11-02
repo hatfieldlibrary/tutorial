@@ -8,20 +8,20 @@ module.exports = function (req, res) {
 
   fs = require('fs');
 
- var data = 'blah' ;
-  console.log('test');
 
-  var data =
+
+
 
     fs.readFile('../../views/ead.xml', 'utf8', function (err,data){
     if (err) {
-      return err + "err"
-     // return console.log(err);
+
+      console.log(err);
     }
-      return data + "data" ;
-  });
+      console.log("DATA: " + data);
+      res.json(data) ;
+    });
 
-
+/*
   res.json([
       {
         name : 'This from server/api/controllers/eads.js'
@@ -37,5 +37,5 @@ module.exports = function (req, res) {
         name :  data
       }
   ]);
-
+*/
 };
